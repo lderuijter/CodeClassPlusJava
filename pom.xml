@@ -20,11 +20,6 @@
             <artifactId>javafx-controls</artifactId>
             <version>21.0.6</version>
         </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-fxml</artifactId>
-            <version>21.0.6</version>
-        </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -60,7 +55,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.example.codeclassplusjava/org.example.codeclassplusjava.HelloApplication
+                            <mainClass>org.example.codeclassplusjava/org.example.codeclassplusjava.Application
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
